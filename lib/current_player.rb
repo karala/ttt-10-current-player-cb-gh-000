@@ -1,6 +1,6 @@
 counter = 0
-def turn_count(board)
+def turn_count(board, counter)
   board.each do |item|
-    puts counter = counter + 1
+    counter += 1
   end
 end
